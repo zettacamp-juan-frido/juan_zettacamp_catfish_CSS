@@ -1,10 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <style>
+      .tab {
+        height: auto;
+        width: 100%;
+        margin-top: 2rem;
+        text-align: center;
+        font-size: larger;
+        color: white;
+      }
+      .tr {
+        height: 15%;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 1px solid #000;
+      }
+      .tr-color-green {
+        background-color: green;
+      }
+      .tr-color-red {
+        background-color: red;
+      }
+      .tr-color-blue {
+        background-color: blue;
+      }
+    </style>
+    <title>CSS Day 1 Project 2</title>
   </head>
-  <body></body>
+  <body>
+    <!-- start container -->
+    <div>
+      <div class="tab">
+        <!-- table 1 -->
+        <div class="tr tr-color-green">Table Hobby</div>
+        <div class="tr"></div>
+        <div class="tr"></div>
+        <!-- table 1 -->
+      </div>
+
+      <div class="tab">
+        <!-- table 2 -->
+        <div class="tr"></div>
+        <div class="tr tr-color-red">Table Favorites Movies</div>
+        <div class="tr"></div>
+        <!-- table 2 -->
+      </div>
+
+      <div class="tab">
+        <!-- table 3 -->
+        <div class="tr"></div>
+        <div class="tr"></div>
+        <div class="tr tr-color-blue">Table Favorites Song</div>
+        <!-- table 3 -->
+      </div>
+    </div>
+    <!-- end container -->
+  </body>
 </html>
