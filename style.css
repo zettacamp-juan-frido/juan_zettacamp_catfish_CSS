@@ -1,0 +1,96 @@
+.container {
+  background: #fff;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.title {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 20px 10px;
+  width: 500px;
+}
+b {
+  margin: 2rem 1rem;
+  font-size: x-large;
+}
+.paragraphs {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 10px 10px;
+  width: 500px;
+  height: auto;
+}
+
+.img-tab {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 20px 10px;
+  width: 500px;
+}
+
+.cards-tab {
+  text-align: center;
+  width: 100%;
+}
+.cards {
+  margin: 0 0 0 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid #c8d8c3;
+  box-shadow: 0px 3px 8px rgb(204, 204, 206);
+  width: 225px;
+  height: auto;
+  margin: 2rem;
+  padding: 2rem;
+}
+.card .paragraph {
+  margin: 1rem;
+}
+.card .img-border {
+  margin: 1rem;
+  border: 1px solid #ddd;
+  width: auto;
+  height: 120px;
+}
+.img-border img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn a {
+  border: solid none;
+  padding: 8px 50px;
+  border-radius: 4px;
+  background: #4a4e53;
+  color: #fff;
+  text-decoration: none;
+}
+.btn a:hover {
+  background: #ddd;
+  color: #4a4e53;
+}
+.footer {
+  border: 1px solid #fff;
+  height: 65px;
+  text-align: center;
+  background: #4a4e53;
+  width: 100%;
+}
+.footer .footer-content {
+  margin: 25px;
+}
+.footer-content a {
+  margin: 2px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-content a:hover {
+  color: #c8c9c9;
+}
