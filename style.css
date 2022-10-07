@@ -32,8 +32,11 @@
   width: auto;
   height: auto;
   text-align: center;
+  border-radius: 8px;
 }
 .card img {
+  border: 1px solid #fff;
+  border-radius: 6px;
   width: 250px;
   height: 200px;
 }
