@@ -31,7 +31,7 @@ ul {
 .content {
   border: 1px solid #f1f5f9;
   width: 100%;
-  padding: 2rem;
+  padding: 3rem 7rem;
 }
 
 .popular {
@@ -46,6 +46,7 @@ ul {
   height: auto;
   text-align: center;
   border-radius: 8px;
+  background-color: #fff;
 }
 .card img {
   border: 1px solid #fff;
