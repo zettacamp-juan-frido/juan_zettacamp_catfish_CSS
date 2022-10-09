@@ -8,7 +8,9 @@
 .mar-2rem {
   margin: 2rem;
 }
-
+.mar-5px {
+  margin: 5px;
+}
 .p-16px {
   padding: 16px;
 }
@@ -36,7 +38,7 @@
 .color-green {
   color: #22c55e;
 }
-.color-balck-blue {
+.color-black-blue {
   color: #475569;
 }
 .font-larger {
@@ -52,18 +54,41 @@
   color: #e2e8f0;
   text-decoration: none;
 }
+.a-white:hover {
+  color: #cbd5e1;
+}
 .a-green {
   color: #4ade80;
   text-decoration: none;
 }
-.a-white:hover {
-  color: #cbd5e1;
-}
 .a-green:hover {
   color: #22c55e;
+}
+.a-black-blue {
+  color: #475569;
+  text-decoration: none;
+}
+.a-black-blue:hover {
+  border-bottom: 1px solid #22c55e;
+  color: #22c55e;
+}
+.a-Slate {
+  color: #fdfdfd;
+  text-decoration: none;
 }
 .flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.border {
+  background: #f1f5f9;
+  width: 100%;
 }
