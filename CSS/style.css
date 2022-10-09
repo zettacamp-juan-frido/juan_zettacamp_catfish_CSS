@@ -73,3 +73,21 @@ ul {
 .btn:hover {
   background: #16a34a;
 }
+
+.input {
+  width: 30rem;
+  padding: 7px;
+  border: 1px solid #ddd;
+}
+
+.upload-img-border {
+  border: 1px dashed #ddd;
+  width: 50%;
+  height: 7rem;
+}
+.upload-img-btn {
+  border: 1px solid #22c55e;
+  background: #22c55e;
+  padding: 4px 25px;
+  border-radius: 5px;
+}
